@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build outputs
+client/dist/
+coverage/
+
+# Runtime files
+server/uploads/
+*.log
+
+# Environment secrets
+.env
+server/.env
+client/.env
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
